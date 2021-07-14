@@ -1,2 +1,19 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script>
+	import Contents from './Contents.svelte';
+</script>
+
+<div>
+	<Contents />
+</div>
+
+<style global>
+	.first-color {
+		@apply text-black;
+	}
+	.second-color {
+		@apply text-red-600;
+	}
+	.third-color {
+		@apply text-red-300;
+	}
+</style>
